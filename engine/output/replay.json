@@ -1,0 +1,1446 @@
+{
+  "timeline": [
+    {
+      "ts": "2026-07-09T01:24:00.357Z",
+      "label": "2026/7/9 09:24:00"
+    },
+    {
+      "ts": "2026-07-09T01:25:59.542Z",
+      "label": "2026/7/9 09:25:59"
+    },
+    {
+      "ts": "2026-07-09T01:28:15.450Z",
+      "label": "2026/7/9 09:28:15"
+    },
+    {
+      "ts": "2026-07-09T01:28:34.809Z",
+      "label": "2026/7/9 09:28:34"
+    },
+    {
+      "ts": "2026-07-09T01:28:46.997Z",
+      "label": "2026/7/9 09:28:46"
+    },
+    {
+      "ts": "2026-07-09T02:48:21.729Z",
+      "label": "2026/7/9 10:48:21"
+    },
+    {
+      "ts": "2026-07-09T03:27:03.453Z",
+      "label": "2026/7/9 11:27:03"
+    },
+    {
+      "ts": "2026-07-09T03:52:42.784Z",
+      "label": "2026/7/9 11:52:42"
+    },
+    {
+      "ts": "2026-07-09T12:50:14.822Z",
+      "label": "2026/7/9 20:50:14"
+    }
+  ],
+  "series": [
+    {
+      "id": "code",
+      "name": "软件开发",
+      "points": [
+        {
+          "t": "2026-07-09T01:24:00.357Z",
+          "score": 48.2,
+          "depth": 93,
+          "adoption": 31,
+          "speed": "explosive",
+          "speedScore": 81
+        },
+        {
+          "t": "2026-07-09T01:25:59.542Z",
+          "score": 48.2,
+          "depth": 93,
+          "adoption": 31,
+          "speed": "explosive",
+          "speedScore": 81
+        },
+        {
+          "t": "2026-07-09T01:28:15.450Z",
+          "score": 31.7,
+          "depth": 38,
+          "adoption": 26,
+          "speed": "steady",
+          "speedScore": 42
+        },
+        {
+          "t": "2026-07-09T01:28:34.809Z",
+          "score": 32.1,
+          "depth": 39,
+          "adoption": 26,
+          "speed": "steady",
+          "speedScore": 43
+        },
+        {
+          "t": "2026-07-09T01:28:46.997Z",
+          "score": 31.2,
+          "depth": 37,
+          "adoption": 26,
+          "speed": "steady",
+          "speedScore": 40
+        },
+        {
+          "t": "2026-07-09T02:48:21.729Z",
+          "score": 31.1,
+          "depth": 37,
+          "adoption": 26,
+          "speed": "steady",
+          "speedScore": 40
+        },
+        {
+          "t": "2026-07-09T03:27:03.453Z",
+          "score": 31.3,
+          "depth": 38,
+          "adoption": 26,
+          "speed": "steady",
+          "speedScore": 41
+        },
+        {
+          "t": "2026-07-09T03:52:42.784Z",
+          "score": 31.1,
+          "depth": 37,
+          "adoption": 26,
+          "speed": "steady",
+          "speedScore": 40
+        },
+        {
+          "t": "2026-07-09T12:50:14.822Z",
+          "score": 31,
+          "depth": 37,
+          "adoption": 26,
+          "speed": "steady",
+          "speedScore": 40
+        }
+      ]
+    },
+    {
+      "id": "content",
+      "name": "内容创作",
+      "points": [
+        {
+          "t": "2026-07-09T01:24:00.357Z",
+          "score": 49.5,
+          "depth": 92,
+          "adoption": 28,
+          "speed": "explosive",
+          "speedScore": 79
+        },
+        {
+          "t": "2026-07-09T01:25:59.542Z",
+          "score": 49.5,
+          "depth": 92,
+          "adoption": 28,
+          "speed": "explosive",
+          "speedScore": 79
+        },
+        {
+          "t": "2026-07-09T01:28:15.450Z",
+          "score": 30.6,
+          "depth": 49,
+          "adoption": 23,
+          "speed": "steady",
+          "speedScore": 49
+        },
+        {
+          "t": "2026-07-09T01:28:34.809Z",
+          "score": 31.5,
+          "depth": 51,
+          "adoption": 23,
+          "speed": "fast",
+          "speedScore": 52
+        },
+        {
+          "t": "2026-07-09T01:28:46.997Z",
+          "score": 31.2,
+          "depth": 50,
+          "adoption": 24,
+          "speed": "fast",
+          "speedScore": 51
+        },
+        {
+          "t": "2026-07-09T02:48:21.729Z",
+          "score": 30.7,
+          "depth": 49,
+          "adoption": 24,
+          "speed": "steady",
+          "speedScore": 50
+        },
+        {
+          "t": "2026-07-09T03:27:03.453Z",
+          "score": 30.7,
+          "depth": 49,
+          "adoption": 24,
+          "speed": "steady",
+          "speedScore": 50
+        },
+        {
+          "t": "2026-07-09T03:52:42.784Z",
+          "score": 30.9,
+          "depth": 50,
+          "adoption": 23,
+          "speed": "fast",
+          "speedScore": 50
+        },
+        {
+          "t": "2026-07-09T12:50:14.822Z",
+          "score": 30.9,
+          "depth": 50,
+          "adoption": 23,
+          "speed": "fast",
+          "speedScore": 50
+        }
+      ]
+    },
+    {
+      "id": "assistant",
+      "name": "个人 AI 助理 / Agent",
+      "points": [
+        {
+          "t": "2026-07-09T01:24:00.357Z",
+          "score": 57.7,
+          "depth": 90,
+          "adoption": 25,
+          "speed": "explosive",
+          "speedScore": 77
+        },
+        {
+          "t": "2026-07-09T01:25:59.542Z",
+          "score": 57.5,
+          "depth": 90,
+          "adoption": 24,
+          "speed": "explosive",
+          "speedScore": 77
+        },
+        {
+          "t": "2026-07-09T01:28:15.450Z",
+          "score": 25.3,
+          "depth": 44,
+          "adoption": 18,
+          "speed": "steady",
+          "speedScore": 48
+        },
+        {
+          "t": "2026-07-09T01:28:34.809Z",
+          "score": 25.3,
+          "depth": 44,
+          "adoption": 18,
+          "speed": "steady",
+          "speedScore": 48
+        },
+        {
+          "t": "2026-07-09T01:28:46.997Z",
+          "score": 24.9,
+          "depth": 43,
+          "adoption": 18,
+          "speed": "steady",
+          "speedScore": 47
+        },
+        {
+          "t": "2026-07-09T02:48:21.729Z",
+          "score": 25.9,
+          "depth": 45,
+          "adoption": 18,
+          "speed": "steady",
+          "speedScore": 50
+        },
+        {
+          "t": "2026-07-09T03:27:03.453Z",
+          "score": 25.2,
+          "depth": 44,
+          "adoption": 18,
+          "speed": "steady",
+          "speedScore": 48
+        },
+        {
+          "t": "2026-07-09T03:52:42.784Z",
+          "score": 25.8,
+          "depth": 45,
+          "adoption": 18,
+          "speed": "steady",
+          "speedScore": 50
+        },
+        {
+          "t": "2026-07-09T12:50:14.822Z",
+          "score": 25.2,
+          "depth": 44,
+          "adoption": 18,
+          "speed": "steady",
+          "speedScore": 48
+        }
+      ]
+    },
+    {
+      "id": "search",
+      "name": "搜索与信息获取",
+      "points": [
+        {
+          "t": "2026-07-09T01:24:00.357Z",
+          "score": 32.9,
+          "depth": 50,
+          "adoption": 26,
+          "speed": "steady",
+          "speedScore": 45
+        },
+        {
+          "t": "2026-07-09T01:25:59.542Z",
+          "score": 30.5,
+          "depth": 50,
+          "adoption": 26,
+          "speed": "steady",
+          "speedScore": 45
+        },
+        {
+          "t": "2026-07-09T01:28:15.450Z",
+          "score": 21.5,
+          "depth": 30,
+          "adoption": 22,
+          "speed": "slow",
+          "speedScore": 30
+        },
+        {
+          "t": "2026-07-09T01:28:34.809Z",
+          "score": 21,
+          "depth": 28,
+          "adoption": 22,
+          "speed": "slow",
+          "speedScore": 28
+        },
+        {
+          "t": "2026-07-09T01:28:46.997Z",
+          "score": 20.9,
+          "depth": 28,
+          "adoption": 22,
+          "speed": "slow",
+          "speedScore": 28
+        },
+        {
+          "t": "2026-07-09T02:48:21.729Z",
+          "score": 21.1,
+          "depth": 29,
+          "adoption": 22,
+          "speed": "slow",
+          "speedScore": 29
+        },
+        {
+          "t": "2026-07-09T03:27:03.453Z",
+          "score": 20.7,
+          "depth": 28,
+          "adoption": 22,
+          "speed": "slow",
+          "speedScore": 28
+        },
+        {
+          "t": "2026-07-09T03:52:42.784Z",
+          "score": 20.6,
+          "depth": 27,
+          "adoption": 22,
+          "speed": "slow",
+          "speedScore": 28
+        },
+        {
+          "t": "2026-07-09T12:50:14.822Z",
+          "score": 21.1,
+          "depth": 29,
+          "adoption": 22,
+          "speed": "slow",
+          "speedScore": 29
+        }
+      ]
+    },
+    {
+      "id": "cs",
+      "name": "客服与呼叫中心",
+      "points": [
+        {
+          "t": "2026-07-09T01:24:00.357Z",
+          "score": 36.7,
+          "depth": 46,
+          "adoption": 28,
+          "speed": "steady",
+          "speedScore": 40
+        },
+        {
+          "t": "2026-07-09T01:25:59.542Z",
+          "score": 36.7,
+          "depth": 46,
+          "adoption": 28,
+          "speed": "steady",
+          "speedScore": 40
+        },
+        {
+          "t": "2026-07-09T01:28:15.450Z",
+          "score": 34,
+          "depth": 40,
+          "adoption": 28,
+          "speed": "steady",
+          "speedScore": 42
+        },
+        {
+          "t": "2026-07-09T01:28:34.809Z",
+          "score": 33.6,
+          "depth": 39,
+          "adoption": 28,
+          "speed": "steady",
+          "speedScore": 41
+        },
+        {
+          "t": "2026-07-09T01:28:46.997Z",
+          "score": 33.6,
+          "depth": 39,
+          "adoption": 28,
+          "speed": "steady",
+          "speedScore": 41
+        },
+        {
+          "t": "2026-07-09T02:48:21.729Z",
+          "score": 34,
+          "depth": 40,
+          "adoption": 29,
+          "speed": "steady",
+          "speedScore": 42
+        },
+        {
+          "t": "2026-07-09T03:27:03.453Z",
+          "score": 34.4,
+          "depth": 41,
+          "adoption": 28,
+          "speed": "steady",
+          "speedScore": 43
+        },
+        {
+          "t": "2026-07-09T03:52:42.784Z",
+          "score": 33.6,
+          "depth": 39,
+          "adoption": 28,
+          "speed": "steady",
+          "speedScore": 41
+        },
+        {
+          "t": "2026-07-09T12:50:14.822Z",
+          "score": 33.2,
+          "depth": 38,
+          "adoption": 28,
+          "speed": "steady",
+          "speedScore": 40
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "name": "医疗健康",
+      "points": [
+        {
+          "t": "2026-07-09T01:24:00.357Z",
+          "score": 34.9,
+          "depth": 60,
+          "adoption": 21,
+          "speed": "steady",
+          "speedScore": 49
+        },
+        {
+          "t": "2026-07-09T01:25:59.542Z",
+          "score": 34.9,
+          "depth": 60,
+          "adoption": 21,
+          "speed": "steady",
+          "speedScore": 49
+        },
+        {
+          "t": "2026-07-09T01:28:15.450Z",
+          "score": 19.8,
+          "depth": 32,
+          "adoption": 21,
+          "speed": "steady",
+          "speedScore": 34
+        },
+        {
+          "t": "2026-07-09T01:28:34.809Z",
+          "score": 19.5,
+          "depth": 31,
+          "adoption": 21,
+          "speed": "steady",
+          "speedScore": 33
+        },
+        {
+          "t": "2026-07-09T01:28:46.997Z",
+          "score": 19.8,
+          "depth": 32,
+          "adoption": 21,
+          "speed": "steady",
+          "speedScore": 34
+        },
+        {
+          "t": "2026-07-09T02:48:21.729Z",
+          "score": 19.6,
+          "depth": 31,
+          "adoption": 21,
+          "speed": "steady",
+          "speedScore": 33
+        },
+        {
+          "t": "2026-07-09T03:27:03.453Z",
+          "score": 19.4,
+          "depth": 31,
+          "adoption": 21,
+          "speed": "steady",
+          "speedScore": 32
+        },
+        {
+          "t": "2026-07-09T03:52:42.784Z",
+          "score": 19.5,
+          "depth": 31,
+          "adoption": 21,
+          "speed": "steady",
+          "speedScore": 33
+        },
+        {
+          "t": "2026-07-09T12:50:14.822Z",
+          "score": 19.7,
+          "depth": 31,
+          "adoption": 21,
+          "speed": "steady",
+          "speedScore": 33
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "AI for Science",
+      "points": [
+        {
+          "t": "2026-07-09T01:24:00.357Z",
+          "score": 41.6,
+          "depth": 73,
+          "adoption": 28,
+          "speed": "fast",
+          "speedScore": 69
+        },
+        {
+          "t": "2026-07-09T01:25:59.542Z",
+          "score": 42,
+          "depth": 73,
+          "adoption": 28,
+          "speed": "fast",
+          "speedScore": 69
+        },
+        {
+          "t": "2026-07-09T01:28:15.450Z",
+          "score": 22.9,
+          "depth": 41,
+          "adoption": 24,
+          "speed": "steady",
+          "speedScore": 42
+        },
+        {
+          "t": "2026-07-09T01:28:34.809Z",
+          "score": 22.8,
+          "depth": 41,
+          "adoption": 24,
+          "speed": "steady",
+          "speedScore": 41
+        },
+        {
+          "t": "2026-07-09T01:28:46.997Z",
+          "score": 23.4,
+          "depth": 42,
+          "adoption": 24,
+          "speed": "steady",
+          "speedScore": 43
+        },
+        {
+          "t": "2026-07-09T02:48:21.729Z",
+          "score": 22.5,
+          "depth": 40,
+          "adoption": 24,
+          "speed": "steady",
+          "speedScore": 41
+        },
+        {
+          "t": "2026-07-09T03:27:03.453Z",
+          "score": 23.1,
+          "depth": 42,
+          "adoption": 24,
+          "speed": "steady",
+          "speedScore": 42
+        },
+        {
+          "t": "2026-07-09T03:52:42.784Z",
+          "score": 23,
+          "depth": 41,
+          "adoption": 23,
+          "speed": "steady",
+          "speedScore": 42
+        },
+        {
+          "t": "2026-07-09T12:50:14.822Z",
+          "score": 22.8,
+          "depth": 41,
+          "adoption": 24,
+          "speed": "steady",
+          "speedScore": 42
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "name": "金融",
+      "points": [
+        {
+          "t": "2026-07-09T01:24:00.357Z",
+          "score": 27.6,
+          "depth": 42,
+          "adoption": 28,
+          "speed": "steady",
+          "speedScore": 36
+        },
+        {
+          "t": "2026-07-09T01:25:59.542Z",
+          "score": 27.6,
+          "depth": 42,
+          "adoption": 28,
+          "speed": "steady",
+          "speedScore": 36
+        },
+        {
+          "t": "2026-07-09T01:28:15.450Z",
+          "score": 26.2,
+          "depth": 42,
+          "adoption": 23,
+          "speed": "steady",
+          "speedScore": 42
+        },
+        {
+          "t": "2026-07-09T01:28:34.809Z",
+          "score": 25.4,
+          "depth": 40,
+          "adoption": 23,
+          "speed": "steady",
+          "speedScore": 40
+        },
+        {
+          "t": "2026-07-09T01:28:46.997Z",
+          "score": 25.3,
+          "depth": 40,
+          "adoption": 23,
+          "speed": "steady",
+          "speedScore": 40
+        },
+        {
+          "t": "2026-07-09T02:48:21.729Z",
+          "score": 25.8,
+          "depth": 41,
+          "adoption": 23,
+          "speed": "steady",
+          "speedScore": 41
+        },
+        {
+          "t": "2026-07-09T03:27:03.453Z",
+          "score": 26,
+          "depth": 42,
+          "adoption": 23,
+          "speed": "steady",
+          "speedScore": 41
+        },
+        {
+          "t": "2026-07-09T03:52:42.784Z",
+          "score": 25.8,
+          "depth": 41,
+          "adoption": 23,
+          "speed": "steady",
+          "speedScore": 41
+        },
+        {
+          "t": "2026-07-09T12:50:14.822Z",
+          "score": 25.7,
+          "depth": 41,
+          "adoption": 23,
+          "speed": "steady",
+          "speedScore": 41
+        }
+      ]
+    },
+    {
+      "id": "edu",
+      "name": "教育",
+      "points": [
+        {
+          "t": "2026-07-09T01:24:00.357Z",
+          "score": 36.7,
+          "depth": 66,
+          "adoption": 18,
+          "speed": "fast",
+          "speedScore": 54
+        },
+        {
+          "t": "2026-07-09T01:25:59.542Z",
+          "score": 37.6,
+          "depth": 66,
+          "adoption": 21,
+          "speed": "fast",
+          "speedScore": 55
+        },
+        {
+          "t": "2026-07-09T01:28:15.450Z",
+          "score": 20,
+          "depth": 33,
+          "adoption": 19,
+          "speed": "steady",
+          "speedScore": 35
+        },
+        {
+          "t": "2026-07-09T01:28:34.809Z",
+          "score": 19.8,
+          "depth": 33,
+          "adoption": 19,
+          "speed": "steady",
+          "speedScore": 34
+        },
+        {
+          "t": "2026-07-09T01:28:46.997Z",
+          "score": 20.3,
+          "depth": 34,
+          "adoption": 19,
+          "speed": "steady",
+          "speedScore": 36
+        },
+        {
+          "t": "2026-07-09T02:48:21.729Z",
+          "score": 20.4,
+          "depth": 34,
+          "adoption": 19,
+          "speed": "steady",
+          "speedScore": 36
+        },
+        {
+          "t": "2026-07-09T03:27:03.453Z",
+          "score": 20.8,
+          "depth": 35,
+          "adoption": 19,
+          "speed": "steady",
+          "speedScore": 37
+        },
+        {
+          "t": "2026-07-09T03:52:42.784Z",
+          "score": 20.7,
+          "depth": 34,
+          "adoption": 19,
+          "speed": "steady",
+          "speedScore": 36
+        },
+        {
+          "t": "2026-07-09T12:50:14.822Z",
+          "score": 20.2,
+          "depth": 33,
+          "adoption": 19,
+          "speed": "steady",
+          "speedScore": 35
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "name": "法律",
+      "points": [
+        {
+          "t": "2026-07-09T01:24:00.357Z",
+          "score": 25.8,
+          "depth": 40,
+          "adoption": 26,
+          "speed": "steady",
+          "speedScore": 36
+        },
+        {
+          "t": "2026-07-09T01:25:59.542Z",
+          "score": 25.8,
+          "depth": 40,
+          "adoption": 26,
+          "speed": "steady",
+          "speedScore": 36
+        },
+        {
+          "t": "2026-07-09T01:28:15.450Z",
+          "score": 28.4,
+          "depth": 36,
+          "adoption": 23,
+          "speed": "steady",
+          "speedScore": 36
+        },
+        {
+          "t": "2026-07-09T01:28:34.809Z",
+          "score": 28.8,
+          "depth": 37,
+          "adoption": 23,
+          "speed": "steady",
+          "speedScore": 37
+        },
+        {
+          "t": "2026-07-09T01:28:46.997Z",
+          "score": 28.4,
+          "depth": 36,
+          "adoption": 23,
+          "speed": "steady",
+          "speedScore": 36
+        },
+        {
+          "t": "2026-07-09T02:48:21.729Z",
+          "score": 28.2,
+          "depth": 35,
+          "adoption": 23,
+          "speed": "steady",
+          "speedScore": 36
+        },
+        {
+          "t": "2026-07-09T03:27:03.453Z",
+          "score": 28,
+          "depth": 35,
+          "adoption": 23,
+          "speed": "steady",
+          "speedScore": 35
+        },
+        {
+          "t": "2026-07-09T03:52:42.784Z",
+          "score": 28.6,
+          "depth": 36,
+          "adoption": 23,
+          "speed": "steady",
+          "speedScore": 37
+        },
+        {
+          "t": "2026-07-09T12:50:14.822Z",
+          "score": 28.4,
+          "depth": 36,
+          "adoption": 23,
+          "speed": "steady",
+          "speedScore": 36
+        }
+      ]
+    },
+    {
+      "id": "mfg",
+      "name": "制造与工业",
+      "points": [
+        {
+          "t": "2026-07-09T01:24:00.357Z",
+          "score": 20.5,
+          "depth": 28,
+          "adoption": 20,
+          "speed": "slow",
+          "speedScore": 26
+        },
+        {
+          "t": "2026-07-09T01:25:59.542Z",
+          "score": 20.5,
+          "depth": 28,
+          "adoption": 20,
+          "speed": "slow",
+          "speedScore": 26
+        },
+        {
+          "t": "2026-07-09T01:28:15.450Z",
+          "score": 21.2,
+          "depth": 29,
+          "adoption": 19,
+          "speed": "slow",
+          "speedScore": 30
+        },
+        {
+          "t": "2026-07-09T01:28:34.809Z",
+          "score": 21.5,
+          "depth": 29,
+          "adoption": 19,
+          "speed": "slow",
+          "speedScore": 30
+        },
+        {
+          "t": "2026-07-09T01:28:46.997Z",
+          "score": 22.1,
+          "depth": 31,
+          "adoption": 19,
+          "speed": "slow",
+          "speedScore": 32
+        },
+        {
+          "t": "2026-07-09T02:48:21.729Z",
+          "score": 21.8,
+          "depth": 30,
+          "adoption": 19,
+          "speed": "slow",
+          "speedScore": 31
+        },
+        {
+          "t": "2026-07-09T03:27:03.453Z",
+          "score": 22.1,
+          "depth": 31,
+          "adoption": 19,
+          "speed": "slow",
+          "speedScore": 32
+        },
+        {
+          "t": "2026-07-09T03:52:42.784Z",
+          "score": 21.4,
+          "depth": 29,
+          "adoption": 19,
+          "speed": "slow",
+          "speedScore": 30
+        },
+        {
+          "t": "2026-07-09T12:50:14.822Z",
+          "score": 21.5,
+          "depth": 29,
+          "adoption": 19,
+          "speed": "slow",
+          "speedScore": 30
+        }
+      ]
+    },
+    {
+      "id": "av",
+      "name": "自动驾驶",
+      "points": [
+        {
+          "t": "2026-07-09T01:24:00.357Z",
+          "score": 38.2,
+          "depth": 75,
+          "adoption": 17,
+          "speed": "fast",
+          "speedScore": 64
+        },
+        {
+          "t": "2026-07-09T01:25:59.542Z",
+          "score": 38.2,
+          "depth": 75,
+          "adoption": 17,
+          "speed": "fast",
+          "speedScore": 64
+        },
+        {
+          "t": "2026-07-09T01:28:15.450Z",
+          "score": 23.3,
+          "depth": 35,
+          "adoption": 17,
+          "speed": "steady",
+          "speedScore": 37
+        },
+        {
+          "t": "2026-07-09T01:28:34.809Z",
+          "score": 23,
+          "depth": 34,
+          "adoption": 17,
+          "speed": "steady",
+          "speedScore": 36
+        },
+        {
+          "t": "2026-07-09T01:28:46.997Z",
+          "score": 23.7,
+          "depth": 35,
+          "adoption": 17,
+          "speed": "steady",
+          "speedScore": 38
+        },
+        {
+          "t": "2026-07-09T02:48:21.729Z",
+          "score": 23.5,
+          "depth": 35,
+          "adoption": 17,
+          "speed": "steady",
+          "speedScore": 38
+        },
+        {
+          "t": "2026-07-09T03:27:03.453Z",
+          "score": 22,
+          "depth": 32,
+          "adoption": 17,
+          "speed": "steady",
+          "speedScore": 34
+        },
+        {
+          "t": "2026-07-09T03:52:42.784Z",
+          "score": 23.3,
+          "depth": 35,
+          "adoption": 17,
+          "speed": "steady",
+          "speedScore": 37
+        },
+        {
+          "t": "2026-07-09T12:50:14.822Z",
+          "score": 23.4,
+          "depth": 35,
+          "adoption": 17,
+          "speed": "steady",
+          "speedScore": 37
+        }
+      ]
+    },
+    {
+      "id": "robot",
+      "name": "机器人 / 具身智能",
+      "points": [
+        {
+          "t": "2026-07-09T01:24:00.357Z",
+          "score": 35.9,
+          "depth": 74,
+          "adoption": 16,
+          "speed": "fast",
+          "speedScore": 62
+        },
+        {
+          "t": "2026-07-09T01:25:59.542Z",
+          "score": 35.9,
+          "depth": 74,
+          "adoption": 16,
+          "speed": "fast",
+          "speedScore": 62
+        },
+        {
+          "t": "2026-07-09T01:28:15.450Z",
+          "score": 14.5,
+          "depth": 24,
+          "adoption": 10,
+          "speed": "slow",
+          "speedScore": 28
+        },
+        {
+          "t": "2026-07-09T01:28:34.809Z",
+          "score": 14,
+          "depth": 23,
+          "adoption": 11,
+          "speed": "slow",
+          "speedScore": 26
+        },
+        {
+          "t": "2026-07-09T01:28:46.997Z",
+          "score": 13.8,
+          "depth": 23,
+          "adoption": 10,
+          "speed": "slow",
+          "speedScore": 26
+        },
+        {
+          "t": "2026-07-09T02:48:21.729Z",
+          "score": 14.1,
+          "depth": 23,
+          "adoption": 11,
+          "speed": "slow",
+          "speedScore": 27
+        },
+        {
+          "t": "2026-07-09T03:27:03.453Z",
+          "score": 14.5,
+          "depth": 24,
+          "adoption": 10,
+          "speed": "slow",
+          "speedScore": 28
+        },
+        {
+          "t": "2026-07-09T03:52:42.784Z",
+          "score": 14.4,
+          "depth": 24,
+          "adoption": 10,
+          "speed": "slow",
+          "speedScore": 27
+        },
+        {
+          "t": "2026-07-09T12:50:14.822Z",
+          "score": 14,
+          "depth": 23,
+          "adoption": 10,
+          "speed": "slow",
+          "speedScore": 26
+        }
+      ]
+    },
+    {
+      "id": "ecom",
+      "name": "电商与零售",
+      "points": [
+        {
+          "t": "2026-07-09T01:24:00.357Z",
+          "score": 25.2,
+          "depth": 31,
+          "adoption": 25,
+          "speed": "slow",
+          "speedScore": 29
+        },
+        {
+          "t": "2026-07-09T01:25:59.542Z",
+          "score": 25.2,
+          "depth": 31,
+          "adoption": 25,
+          "speed": "slow",
+          "speedScore": 29
+        },
+        {
+          "t": "2026-07-09T01:28:15.450Z",
+          "score": 31,
+          "depth": 36,
+          "adoption": 25,
+          "speed": "steady",
+          "speedScore": 37
+        },
+        {
+          "t": "2026-07-09T01:28:34.809Z",
+          "score": 31.1,
+          "depth": 36,
+          "adoption": 25,
+          "speed": "steady",
+          "speedScore": 38
+        },
+        {
+          "t": "2026-07-09T01:28:46.997Z",
+          "score": 30.4,
+          "depth": 34,
+          "adoption": 25,
+          "speed": "steady",
+          "speedScore": 36
+        },
+        {
+          "t": "2026-07-09T02:48:21.729Z",
+          "score": 30.6,
+          "depth": 35,
+          "adoption": 25,
+          "speed": "steady",
+          "speedScore": 36
+        },
+        {
+          "t": "2026-07-09T03:27:03.453Z",
+          "score": 30.6,
+          "depth": 35,
+          "adoption": 25,
+          "speed": "steady",
+          "speedScore": 36
+        },
+        {
+          "t": "2026-07-09T03:52:42.784Z",
+          "score": 30.5,
+          "depth": 34,
+          "adoption": 25,
+          "speed": "steady",
+          "speedScore": 36
+        },
+        {
+          "t": "2026-07-09T12:50:14.822Z",
+          "score": 30.6,
+          "depth": 35,
+          "adoption": 25,
+          "speed": "steady",
+          "speedScore": 36
+        }
+      ]
+    },
+    {
+      "id": "sec",
+      "name": "网络安全",
+      "points": [
+        {
+          "t": "2026-07-09T01:24:00.357Z",
+          "score": 20.5,
+          "depth": 24,
+          "adoption": 27,
+          "speed": "slow",
+          "speedScore": 25
+        },
+        {
+          "t": "2026-07-09T01:25:59.542Z",
+          "score": 19.2,
+          "depth": 24,
+          "adoption": 27,
+          "speed": "slow",
+          "speedScore": 25
+        },
+        {
+          "t": "2026-07-09T01:28:15.450Z",
+          "score": 32,
+          "depth": 44,
+          "adoption": 23,
+          "speed": "steady",
+          "speedScore": 43
+        },
+        {
+          "t": "2026-07-09T01:28:34.809Z",
+          "score": 32,
+          "depth": 44,
+          "adoption": 23,
+          "speed": "steady",
+          "speedScore": 43
+        },
+        {
+          "t": "2026-07-09T01:28:46.997Z",
+          "score": 32,
+          "depth": 44,
+          "adoption": 23,
+          "speed": "steady",
+          "speedScore": 43
+        },
+        {
+          "t": "2026-07-09T02:48:21.729Z",
+          "score": 31.7,
+          "depth": 43,
+          "adoption": 23,
+          "speed": "steady",
+          "speedScore": 42
+        },
+        {
+          "t": "2026-07-09T03:27:03.453Z",
+          "score": 32.2,
+          "depth": 44,
+          "adoption": 23,
+          "speed": "steady",
+          "speedScore": 44
+        },
+        {
+          "t": "2026-07-09T03:52:42.784Z",
+          "score": 31.9,
+          "depth": 44,
+          "adoption": 23,
+          "speed": "steady",
+          "speedScore": 43
+        },
+        {
+          "t": "2026-07-09T12:50:14.822Z",
+          "score": 32,
+          "depth": 44,
+          "adoption": 23,
+          "speed": "steady",
+          "speedScore": 43
+        }
+      ]
+    },
+    {
+      "id": "agri",
+      "name": "农业",
+      "points": [
+        {
+          "t": "2026-07-09T01:24:00.357Z",
+          "score": 11.7,
+          "depth": 11,
+          "adoption": 11,
+          "speed": "slow",
+          "speedScore": 11
+        },
+        {
+          "t": "2026-07-09T01:25:59.542Z",
+          "score": 11.7,
+          "depth": 11,
+          "adoption": 11,
+          "speed": "slow",
+          "speedScore": 11
+        },
+        {
+          "t": "2026-07-09T01:28:15.450Z",
+          "score": 12.4,
+          "depth": 23,
+          "adoption": 12,
+          "speed": "slow",
+          "speedScore": 23
+        },
+        {
+          "t": "2026-07-09T01:28:34.809Z",
+          "score": 12.9,
+          "depth": 24,
+          "adoption": 12,
+          "speed": "slow",
+          "speedScore": 24
+        },
+        {
+          "t": "2026-07-09T01:28:46.997Z",
+          "score": 12.5,
+          "depth": 23,
+          "adoption": 12,
+          "speed": "slow",
+          "speedScore": 23
+        },
+        {
+          "t": "2026-07-09T02:48:21.729Z",
+          "score": 12.6,
+          "depth": 23,
+          "adoption": 12,
+          "speed": "slow",
+          "speedScore": 23
+        },
+        {
+          "t": "2026-07-09T03:27:03.453Z",
+          "score": 12.4,
+          "depth": 23,
+          "adoption": 12,
+          "speed": "slow",
+          "speedScore": 23
+        },
+        {
+          "t": "2026-07-09T03:52:42.784Z",
+          "score": 12.3,
+          "depth": 22,
+          "adoption": 12,
+          "speed": "slow",
+          "speedScore": 23
+        },
+        {
+          "t": "2026-07-09T12:50:14.822Z",
+          "score": 12.9,
+          "depth": 24,
+          "adoption": 12,
+          "speed": "slow",
+          "speedScore": 24
+        }
+      ]
+    },
+    {
+      "id": "hr",
+      "name": "HR 与招聘",
+      "points": [
+        {
+          "t": "2026-07-09T01:24:00.357Z",
+          "score": 18,
+          "depth": 20,
+          "adoption": 21,
+          "speed": "slow",
+          "speedScore": 20
+        },
+        {
+          "t": "2026-07-09T01:25:59.542Z",
+          "score": 19.2,
+          "depth": 20,
+          "adoption": 21,
+          "speed": "slow",
+          "speedScore": 20
+        },
+        {
+          "t": "2026-07-09T01:28:15.450Z",
+          "score": 18.4,
+          "depth": 30,
+          "adoption": 21,
+          "speed": "slow",
+          "speedScore": 31
+        },
+        {
+          "t": "2026-07-09T01:28:34.809Z",
+          "score": 18.6,
+          "depth": 30,
+          "adoption": 21,
+          "speed": "slow",
+          "speedScore": 32
+        },
+        {
+          "t": "2026-07-09T01:28:46.997Z",
+          "score": 18.4,
+          "depth": 30,
+          "adoption": 21,
+          "speed": "slow",
+          "speedScore": 31
+        },
+        {
+          "t": "2026-07-09T02:48:21.729Z",
+          "score": 19.2,
+          "depth": 32,
+          "adoption": 21,
+          "speed": "steady",
+          "speedScore": 33
+        },
+        {
+          "t": "2026-07-09T03:27:03.453Z",
+          "score": 18.2,
+          "depth": 30,
+          "adoption": 21,
+          "speed": "slow",
+          "speedScore": 31
+        },
+        {
+          "t": "2026-07-09T03:52:42.784Z",
+          "score": 19.1,
+          "depth": 31,
+          "adoption": 21,
+          "speed": "steady",
+          "speedScore": 33
+        },
+        {
+          "t": "2026-07-09T12:50:14.822Z",
+          "score": 18.5,
+          "depth": 30,
+          "adoption": 21,
+          "speed": "slow",
+          "speedScore": 31
+        }
+      ]
+    },
+    {
+      "id": "energy",
+      "name": "能源与电力",
+      "points": [
+        {
+          "t": "2026-07-09T01:24:00.357Z",
+          "score": 15.2,
+          "depth": 22,
+          "adoption": 20,
+          "speed": "slow",
+          "speedScore": 22
+        },
+        {
+          "t": "2026-07-09T01:25:59.542Z",
+          "score": 15.2,
+          "depth": 22,
+          "adoption": 20,
+          "speed": "slow",
+          "speedScore": 22
+        },
+        {
+          "t": "2026-07-09T01:28:15.450Z",
+          "score": 15.5,
+          "depth": 28,
+          "adoption": 17,
+          "speed": "slow",
+          "speedScore": 28
+        },
+        {
+          "t": "2026-07-09T01:28:34.809Z",
+          "score": 15.9,
+          "depth": 29,
+          "adoption": 17,
+          "speed": "slow",
+          "speedScore": 29
+        },
+        {
+          "t": "2026-07-09T01:28:46.997Z",
+          "score": 15.9,
+          "depth": 29,
+          "adoption": 17,
+          "speed": "slow",
+          "speedScore": 29
+        },
+        {
+          "t": "2026-07-09T02:48:21.729Z",
+          "score": 15.6,
+          "depth": 28,
+          "adoption": 17,
+          "speed": "slow",
+          "speedScore": 28
+        },
+        {
+          "t": "2026-07-09T03:27:03.453Z",
+          "score": 14.6,
+          "depth": 26,
+          "adoption": 17,
+          "speed": "slow",
+          "speedScore": 26
+        },
+        {
+          "t": "2026-07-09T03:52:42.784Z",
+          "score": 15.4,
+          "depth": 28,
+          "adoption": 17,
+          "speed": "slow",
+          "speedScore": 28
+        },
+        {
+          "t": "2026-07-09T12:50:14.822Z",
+          "score": 15.1,
+          "depth": 27,
+          "adoption": 17,
+          "speed": "slow",
+          "speedScore": 27
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 扩张分析 · 应用深度与介入程度全景</title>
+  <meta name="description" content="可视化分析 AI 的扩张方向、应用深度、介入程度与未来预测">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧭</text></svg>">
+</head>
+<body>
+<div class="shell">
+
+  <!-- ============ 动态状态横幅（由 dynamic.js 填充，无动态数据时隐藏）============ -->
+  <div class="dyn-banner" id="dyn-banner" style="display:none"></div>
+
+  <!-- ============ HERO ============ -->
+  <header class="hero">
+    <div class="hero-grid">
+      <div>
+        <h1>🧭 AI 扩张分析</h1>
+        <p class="sub">从工具到自主代理——可视化追踪 AI 在哪些领域扩张、介入有多深、已经应用在哪里、未来会走向何方。点击任意图表元素可深入探索。</p>
+      </div>
+      <div class="meta">
+        <span class="dot"></span>
+        <span>数据截至 2026-06</span>
+        <span>·</span>
+        <span>含 2027 预测</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ KPI ============ -->
+  <section class="kpi-row">
+    <div class="kpi k1">
+      <div class="label">追踪领域</div>
+      <div class="value">0</div>
+      <div class="desc">—</div>
+      <canvas class="spark" id="k1"></canvas>
+    </div>
+    <div class="kpi k2">
+      <div class="label">平均介入深度</div>
+      <div class="value">0</div>
+      <div class="desc">—</div>
+      <canvas class="spark" id="k2"></canvas>
+    </div>
+    <div class="kpi k3">
+      <div class="label">爆发式扩张</div>
+      <div class="value">0</div>
+      <div class="desc">—</div>
+      <canvas class="spark" id="k3"></canvas>
+    </div>
+    <div class="kpi k4">
+      <div class="label">已深度嵌入</div>
+      <div class="value">0</div>
+      <div class="desc">—</div>
+      <canvas class="spark" id="k4"></canvas>
+    </div>
+  </section>
+
+  <!-- ============ 历史回放滑块（由动态数据填充，快照<2 时隐藏）============ -->
+  <section class="panel replay-box" id="replay-box" style="display:none;margin-bottom:22px">
+    <div class="panel-head">
+      <h2>⏮️ 历史回放 <span class="tag">多轮快照</span></h2>
+      <span class="hint" id="replay-label">拖动滑块回到任意评估时点</span>
+    </div>
+    <div class="panel-body">
+      <input type="range" id="replay-slider" min="0" max="1" value="1" class="replay-slider">
+      <div class="replay-hint">每运行一次 <code>node engine/run.js</code> 产生一个快照，可在此回放各领域评分的演变 · <button id="replay-reset" class="chip">⏮ 回到当前</button></div>
+    </div>
+  </section>
+
+  <!-- ============ 气泡图 + 阶梯 ============ -->
+  <section class="grid-main">
+    <div class="panel">
+      <div class="panel-head">
+        <h2>🌐 AI 扩张全景图 <span class="tag">介入深度 × 采用率</span></h2>
+        <span class="hint">气泡=市场规模 · 颜色=介入阶段 · 点击探索</span>
+      </div>
+      <div class="panel-body">
+        <canvas id="bubble"></canvas>
+        <div class="bubble-legend">
+          <span><i style="background:#5b8def"></i>工具辅助</span>
+          <span><i style="background:#39c0a0"></i>部分自动化</span>
+          <span><i style="background:#f5b54a"></i>深度协作</span>
+          <span><i style="background:#f0723c"></i>高度自治</span>
+          <span><i style="background:#e0556b"></i>自主代理</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head">
+        <h2>🪜 介入程度阶梯 <span class="tag">从工具到自主</span></h2>
+        <span class="hint">悬停查看各阶段领域</span>
+      </div>
+      <div class="panel-body">
+        <div class="ladder" id="ladder"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 时间轴 ============ -->
+  <section class="panel" style="margin-bottom:22px">
+    <div class="panel-head">
+      <h2>📈 扩张时间轴 <span class="tag">2018 → 2027</span></h2>
+      <span class="hint">悬停年份查看里程碑 · 虚线为预测</span>
+    </div>
+    <div class="panel-body">
+      <canvas id="timeline"></canvas>
+      <div class="tl-legend">
+        <span><i style="background:#5b8def"></i>模型能力</span>
+        <span><i style="background:#39c0a0"></i>应用广度</span>
+        <span><i style="background:#f0723c"></i>自治代理</span>
+        <span style="color:var(--txt-mute);margin-left:auto">* 为预测值</span>
+      </div>
+      <div class="year-note" id="year-note"></div>
+    </div>
+  </section>
+
+  <!-- ============ 新兴雷达 + 趋势外推（动态评估产出，无历史时隐藏）============ -->
+  <section class="grid-half" id="insight-row" style="display:none">
+    <div class="panel">
+      <div class="panel-head">
+        <h2>🛰️ 新兴雷达 <span class="tag">采用率 × 增速</span></h2>
+        <span class="hint">左下角=新兴机会 · 点击探索</span>
+      </div>
+      <div class="panel-body">
+        <canvas id="radar"></canvas>
+        <div class="bubble-legend">
+          <span><i style="background:#39c0a0"></i>新兴（低采用+正增速）</span>
+          <span><i style="background:#5b8def"></i>其它</span>
+        </div>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="panel-head">
+        <h2>🔮 趋势预测 <span class="tag">鲁棒回归 + 置信区间</span></h2>
+        <span class="hint">实线=历史 · 虚线=预测 · 色带=置信区间 · ×=异常点</span>
+      </div>
+      <div class="panel-body">
+        <canvas id="forecast"></canvas>
+        <div class="replay-hint">基于历史快照做鲁棒线性回归（自动检测异常点），外推 3 步并标注 80% 置信带 · ●高可信 ◐中 ○低</div>
+        <div id="forecast-readout"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 加速度排行榜（动态评估产出，无历史时隐藏）============ -->
+  <section class="panel" id="accel-panel" style="display:none;margin-bottom:22px">
+    <div class="panel-head">
+      <h2>🚀 扩张加速度榜 <span class="tag">按评分变化排序</span></h2>
+      <span class="hint">正值为加速 · 负值为减速 · 需 ≥2 个快照</span>
+    </div>
+    <div class="panel-body">
+      <div id="accel-grid"></div>
+    </div>
+  </section>
+
+  <!-- ============ 告警面板（动态评估产出，无告警时隐藏）============ -->
+  <h3 class="alerts-head" id="alerts-head" style="display:none;font-size:13px;color:var(--danger);margin:0 0 10px;text-transform:uppercase;letter-spacing:.6px">🚨 异动告警 · 评估管线自动检测</h3>
+  <div class="alerts-panel" id="alerts-panel" style="display:none"></div>
+
+  <!-- ============ 热力图 ============ -->
+  <section class="panel" style="margin-bottom:22px">
+    <div class="panel-head">
+      <h2>🔥 渗透深度热力图 <span class="tag">领域 × 维度</span></h2>
+      <span class="hint">点击单元格查看领域详情</span>
+    </div>
+    <div class="panel-body">
+      <div class="heatmap-wrap" id="heatmap-wrap"></div>
+      <div class="heat-scale">
+        <span>低</span>
+        <div class="bar"></div>
+        <span>高</span>
+        <span style="margin-left:14px;color:var(--txt-mute)">数值为 0-100 相对评分</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 决策场景分析 ============ -->
+  <section class="panel" style="margin-bottom:22px">
+    <div class="panel-head">
+      <h2>🎯 决策场景分析 <span class="tag">真实业务怎么办</span></h2>
+      <span class="hint">选场景 → 看 AI 该介入到哪一级 / 怎么落地 / 风险在哪</span>
+    </div>
+    <div class="panel-body">
+      <div class="dec-scenario-picker" id="dec-picker"></div>
+      <div class="dec-result" id="dec-result"></div>
+      <div class="dec-sensitivity" id="dec-sensitivity"></div>
+    </div>
+  </section>
+
+  <!-- ============ 领域卡片 ============ -->
+  <section class="panel">
+    <div class="panel-head">
+      <h2>🗂️ 应用领域全景 <span class="tag"><span id="domain-count">0</span> 个领域</span></h2>
+      <span class="hint">点击卡片查看已应用场景与未来预测</span>
+    </div>
+    <div class="panel-body">
+      <!-- 筛选 -->
+      <div class="filters" id="f-cat" style="margin-bottom:10px"></div>
+      <div class="filters" id="f-speed" style="margin-bottom:18px"></div>
+      <div class="domain-grid" id="domain-grid"></div>
+    </div>
+  </section>
+
+  <footer>
+    <p>🧭 <b>AI 扩张分析</b> — 一个纯前端、零依赖的可视化项目，数据为基于公开信息的相对估算，用于横向对比与趋势感知。</p>
+    <p>所有图表均可交互：悬停查看明细，点击深入探索。· 评分体系与数据来源详见项目 README。</p>
+  </footer>
+</div>
+
+<!-- ============ 详情抽屉 ============ -->
+<div class="drawer-overlay" id="drawer-overlay"></div>
+<aside class="drawer" id="drawer">
+  <div class="drawer-head">
+    <button class="drawer-close" id="drawer-close" aria-label="关闭">✕</button>
+    <div class="ico" id="d-ico"></div>
+    <h2 id="d-name"></h2>
+    <div class="cat-line" id="d-cat"></div>
+    <div class="summary" id="d-summary"></div>
+  </div>
+  <div class="drawer-metrics">
+    <div class="m" id="d-m1"><div class="ml"></div><div class="mv"></div></div>
+    <div class="m" id="d-m2"><div class="ml"></div><div class="mv"></div></div>
+    <div class="m" id="d-m3"><div class="ml"></div><div class="mv"></div></div>
+    <div class="m" id="d-m4"><div class="ml"></div><div class="mv"></div></div>
+  </div>
+  <div class="drawer-body">
+    <h3>📍 已经应用在哪里 · 介入多深</h3>
+    <div id="d-deployed"></div>
+
+    <h3>🔮 未来预测 <span class="n">扩张方向</span></h3>
+    <div id="d-future"></div>
+
+    <h3>🎯 决策场景 <span class="n">真实业务怎么办</span></h3>
+    <div id="d-decisions"></div>
+
+    <div>
+      <h3>📊 扩张曲线对比 <span class="n">渗透率 2018→2027</span></h3>
+      <canvas id="d-curves" style="width:100%"></canvas>
+    </div>
+  </div>
+</aside>
+
+<script src="js/data.js"></script>
+<script src="js/decisions.js"></script>
+<script src="js/decision-engine.js"></script>
+<script src="js/forecast.js"></script>
+<script src="js/viz.js"></script>
+<script src="js/app.js"></script>
+<script src="js/dynamic.js"></script>
+</body>
+</html>

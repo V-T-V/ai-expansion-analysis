@@ -1,0 +1,236 @@
+{
+  "checkedAt": "2026-07-08T13:50:20.385Z",
+  "project": "ai-expansion-analysis",
+  "product": "AI trend radar and report portal",
+  "gates": 8,
+  "passed": 8,
+  "failed": 0,
+  "results": [
+    {
+      "id": "static-dashboard",
+      "label": "Static dashboard shell",
+      "status": "pass",
+      "missing": [],
+      "sourceChecks": [
+        {
+          "file": "index.html",
+          "contains": "dyn-banner",
+          "ok": true
+        },
+        {
+          "file": "index.html",
+          "contains": "alerts-panel",
+          "ok": true
+        },
+        {
+          "file": "index.html",
+          "contains": "replay-slider",
+          "ok": true
+        },
+        {
+          "file": "js/app.js",
+          "contains": "renderDynamicBanner",
+          "ok": true
+        },
+        {
+          "file": "js/app.js",
+          "contains": "renderAlerts",
+          "ok": true
+        }
+      ],
+      "dataChecks": [],
+      "jsonChecks": []
+    },
+    {
+      "id": "data-model",
+      "label": "18-domain trend data model",
+      "status": "pass",
+      "missing": [],
+      "sourceChecks": [],
+      "dataChecks": [
+        {
+          "type": "staticDomains",
+          "min": 18,
+          "count": 18,
+          "ok": true
+        },
+        {
+          "type": "timeline",
+          "min": 8,
+          "count": 10,
+          "ok": true
+        },
+        {
+          "type": "levels",
+          "min": 5,
+          "count": 5,
+          "ok": true
+        }
+      ],
+      "jsonChecks": []
+    },
+    {
+      "id": "signal-engine",
+      "label": "Signal-driven evaluation engine",
+      "status": "pass",
+      "missing": [],
+      "sourceChecks": [
+        {
+          "file": "engine/run.js",
+          "contains": "--synth",
+          "ok": true
+        },
+        {
+          "file": "engine/run.js",
+          "contains": "writeOutput",
+          "ok": true
+        },
+        {
+          "file": "engine/alerts.js",
+          "contains": "emerging",
+          "ok": true
+        },
+        {
+          "file": "engine/snapshot.js",
+          "contains": "replaySeries",
+          "ok": true
+        }
+      ],
+      "dataChecks": [],
+      "jsonChecks": []
+    },
+    {
+      "id": "runtime-output",
+      "label": "Latest output and replay data",
+      "status": "pass",
+      "missing": [],
+      "sourceChecks": [],
+      "dataChecks": [],
+      "jsonChecks": [
+        {
+          "file": "engine/output/latest.json",
+          "path": "domains.length",
+          "min": 18,
+          "value": 18,
+          "ok": true
+        },
+        {
+          "file": "engine/output/latest.json",
+          "path": "stats.topScore.length",
+          "min": 3,
+          "value": 5,
+          "ok": true
+        },
+        {
+          "file": "engine/output/replay.json",
+          "path": "timeline.length",
+          "min": 1,
+          "value": 5,
+          "ok": true
+        },
+        {
+          "file": "engine/output/replay.json",
+          "path": "series.length",
+          "min": 18,
+          "value": 18,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "report-export",
+      "label": "Reusable trend report export",
+      "status": "pass",
+      "missing": [],
+      "sourceChecks": [
+        {
+          "file": "scripts/export-html-report.js",
+          "contains": "AI 扩张趋势雷达报告",
+          "ok": true
+        },
+        {
+          "file": "scripts/export-html-report.js",
+          "contains": "tiny-edge-models",
+          "ok": true
+        },
+        {
+          "file": "scripts/export-html-report.js",
+          "contains": "trend-portal-",
+          "ok": true
+        }
+      ],
+      "dataChecks": [],
+      "jsonChecks": []
+    },
+    {
+      "id": "html-report-output",
+      "label": "Generated HTML trend portal",
+      "status": "pass",
+      "missing": [],
+      "sourceChecks": [
+        {
+          "file": "reports/trend-portal-latest.html",
+          "contains": "<title>AI 扩张趋势雷达报告</title>",
+          "ok": true
+        },
+        {
+          "file": "reports/trend-portal-latest.html",
+          "contains": "Top Opportunity Domains",
+          "ok": true
+        },
+        {
+          "file": "reports/trend-portal-latest.html",
+          "contains": "tiny-edge-models",
+          "ok": true
+        }
+      ],
+      "dataChecks": [],
+      "jsonChecks": []
+    },
+    {
+      "id": "edge-ai-topic",
+      "label": "Edge AI topic linked to tiny-edge-models",
+      "status": "pass",
+      "missing": [],
+      "sourceChecks": [
+        {
+          "file": "topics/edge-ai.md",
+          "contains": "tiny-edge-models",
+          "ok": true
+        },
+        {
+          "file": "topics/edge-ai.md",
+          "contains": "端侧 AI",
+          "ok": true
+        },
+        {
+          "file": "topics/edge-ai.md",
+          "contains": "edge-trainer",
+          "ok": true
+        }
+      ],
+      "dataChecks": [],
+      "jsonChecks": []
+    },
+    {
+      "id": "product-docs",
+      "label": "Product direction and operator docs",
+      "status": "pass",
+      "missing": [],
+      "sourceChecks": [
+        {
+          "file": "README.md",
+          "contains": "node scripts/verify.js",
+          "ok": true
+        },
+        {
+          "file": "PRODUCT.md",
+          "contains": "趋势报告",
+          "ok": true
+        }
+      ],
+      "dataChecks": [],
+      "jsonChecks": []
+    }
+  ]
+}

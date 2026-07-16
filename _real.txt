@@ -1,0 +1,66 @@
+=== 真实率（mode=live）===
+code        arxiv  =真实  hn     =真实  github =真实  news   =真实
+content     arxiv  =真实  hn     =真实  github =真实  news   =真实
+assistant   arxiv  =真实  hn     =真实  github =真实  news   =真实
+search      arxiv  =真实  hn     =真实  github =真实  news   =真实
+cs          arxiv  =真实  hn     =真实  github =真实  news   =真实
+health      arxiv  =真实  hn     =真实  github =真实  news   =真实
+science     arxiv  =真实  hn     =真实  github =真实  news   =真实
+finance     arxiv  =真实  hn     =真实  github =真实  news   =真实
+edu         arxiv  =真实  hn     =真实  github =真实  news   =真实
+legal       arxiv  =真实  hn     =真实  github =合成  news   =真实
+mfg         arxiv  =真实  hn     =真实  github =合成  news   =真实
+av          arxiv  =真实  hn     =真实  github =合成  news   =真实
+robot       arxiv  =真实  hn     =真实  github =合成  news   =真实
+ecom        arxiv  =真实  hn     =真实  github =合成  news   =真实
+sec         arxiv  =真实  hn     =真实  github =合成  news   =真实
+agri        arxiv  =真实  hn     =真实  github =合成  news   =真实
+hr          arxiv  =真实  hn     =真实  github =合成  news   =真实
+energy      arxiv  =真实  hn     =真实  github =合成  news   =真实
+
+  arxiv   18/18 (100%)
+  hn      18/18 (100%)
+  github  9/18 (50%)
+  news    18/18 (100%)
+
+=== 真实信号样本 ===
+code (score=62.5 conf=100):
+  arxiv   [真实] {"totalHits":80,"recentHits":80,"depthHits":67,"dates":[1783347205000,1783320820000,1783299880000,1783273649000,1783214172000,1783
+  hn      [真实] {"hits":50,"points":2233,"comments":1340,"dates":[1778456395000,1781369103000,1776155745000,1783019517000,1779290745000,1781179023
+  github  [真实] {"totalRepos":48657,"topStarsK":590.8,"topRepo":{"name":"x1xhlol/system-prompts-and-models-of-ai-tools","stars":141646}}
+  news    [真实] {"volume":0,"riskHits":1,"totalFeedItems":20}
+health (score=34.7 conf=100):
+  arxiv   [真实] {"totalHits":80,"recentHits":54,"depthHits":44,"dates":[1782572420000,1782385720000,1782348804000,1782248242000,1782192226000,1781
+  hn      [真实] {"hits":6,"points":12,"comments":0,"dates":[1782860503000,1781267253000,1782992112000,1776369565000,1781000803000,1781549048000]}
+  github  [真实] {"totalRepos":370,"topStarsK":0.8,"topRepo":{"name":"dengjianyuan/Survey_AI_Drug_Discovery","stars":339}}
+  news    [真实] {"volume":0,"riskHits":1,"totalFeedItems":20}
+robot (score=36.8 conf=72):
+  arxiv   [真实] {"totalHits":80,"recentHits":80,"depthHits":61,"dates":[1783360799000,1783360505000,1783359545000,1783342521000,1783335421000,1783
+  hn      [真实] {"hits":50,"points":657,"comments":404,"dates":[1782771660000,1777866129000,1780921514000,1776281373000,1778697682000,177677375400
+  github  [合成] {"totalRepos":708,"topStarsK":42,"topRepo":null}
+  news    [真实] {"volume":0,"riskHits":1,"totalFeedItems":20}
+agri (score=9.9 conf=72):
+  arxiv   [真实] {"totalHits":1,"recentHits":0,"depthHits":0,"dates":[]}
+  hn      [真实] {"hits":0,"points":0,"comments":0,"dates":[]}
+  github  [合成] {"totalRepos":367,"topStarsK":19.2,"topRepo":null}
+  news    [真实] {"volume":0,"riskHits":1,"totalFeedItems":20}
+
+=== 综合分排名 ===
+  1. 软件开发             score=62.5 depth=93 adopt=29 conf=100
+  2. 个人 AI 助理 / Agent score=60.7 depth=90 adopt=21 conf=100
+  3. 内容创作             score=58.4 depth=92 adopt=26 conf=100
+  4. AI for Science   score=44.7 depth=82 adopt=26 conf=100
+  5. 自动驾驶             score=39.5 depth=75 adopt=16 conf=72
+  6. 搜索与信息获取          score=38 depth=56 adopt=25 conf=100
+  7. 教育               score=37.8 depth=72 adopt=18 conf=100
+  8. 机器人 / 具身智能       score=36.8 depth=74 adopt=14 conf=72
+  9. 客服与呼叫中心          score=35.8 depth=52 adopt=28 conf=100
+  10. 医疗健康             score=34.7 depth=68 adopt=21 conf=100
+  11. 金融               score=34.2 depth=45 adopt=26 conf=100
+  12. 法律               score=29.3 depth=44 adopt=25 conf=72
+  13. 电商与零售            score=26.2 depth=30 adopt=24 conf=72
+  14. 网络安全             score=23 depth=25 adopt=26 conf=72
+  15. 制造与工业            score=22.2 depth=29 adopt=20 conf=72
+  16. HR 与招聘           score=19 depth=20 adopt=21 conf=72
+  17. 能源与电力            score=17.9 depth=23 adopt=19 conf=72
+  18. 农业               score=9.9 depth=11 adopt=11 conf=72

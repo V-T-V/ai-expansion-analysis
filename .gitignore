@@ -1,0 +1,16 @@
+# 环境与密钥
+.env
+.env.local
+
+# 运行时生成的报告
+reports/
+
+# 系统
+.DS_Store
+Thumbs.db
+nul
+NUL
+
+# IDE
+.vscode/
+.idea/
